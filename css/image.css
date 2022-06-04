@@ -2,7 +2,14 @@
 #img_wrap:hover #animated {
   display: inline;
 }
+
 #img_wrap #animated,
 #img_wrap:hover #static {
   display: none;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  vertical-align: text-bottom;
 }

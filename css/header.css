@@ -21,7 +21,6 @@
 .header-button {
   color: #ffffff;
   text-decoration: none;
-  font-size: 36px;
-  padding: 16px;
-  filter: brightness(0) invert(1);
+  font-size: 28px;
+  padding: 12px;
 }
