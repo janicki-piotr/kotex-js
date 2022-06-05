@@ -1,174 +1,191 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Kotex - najlepsze kociaki w mieście</title>
-    <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/master.css">
-    <script src="src/google-map.js"></script>
-</head>
-
-<body>
-
-    <div class="header">
-        <div class="header-logo">
+   <head>
+      <meta charset="UTF-8">
+      <title>Kotex - najlepsze kociaki w mieście</title>
+      <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
+      <link rel="stylesheet" type="text/css" href="css/master.css">
+      <script src="src/google-map.js"></script>
+   </head>
+   <body>
+      <!-- header -->
+      <div class="header">
+         <div class="header-logo">
             <a text-align="left">Kotex</a>
-        </div>
-        <div class="header-buttons">
+         </div>
+         <div class="header-buttons">
             <a href="#about" class="header-button ripple">O nas</a>
             <a href="#races" class="header-button ripple">Nasze rasy</a>
             <a href="#opinions" class="header-button ripple">Opinie</a>
-        </div>
-    </div>
-
-    <div id="about"></div>
-
-    <div class="container">
-        <img src="asset/image/cat/cat_1_cropped.jpeg" class="responsive-image">
-    </div>
-
-    <div>
-        <h1 class = heading-section>O nas</h1>
-        <h5>Największa hodowla kotów rasowych - już od 1954 roku.</h5>
-        <p>Jesteśmy największą w Łodzi legalną hodowlą kotów rasowych.</p>
-        <h5>Dlaczego można nam zaufać?</h5>
-        <ul>
-            <li>Przynależność do odpowiednich federacji</li>
-            Należymy do największej światowej federacji felinologicznej World Cat Federation (WCF).
-            <li>Wiek wydawania kociaka</li>
-            Każdy kot, który opuszcza naszą hodowlę, ma już ukończone 12 tygodni.
-            <li>Kastracja</li>
-            Każdy maluch, który opuszcza naszą hodowlę, jest już wykastrowany.
-            <li>Rodowód</li>
-            Każdy kot posiada rodowód WCF.
-            <li>Wyniki badań</li>
-            Każdy kot przynależący do rasy obciążonej chorobami o podłożu genetycznym posiada wszelkie niezbędne badania.
-        </ul>
-
-            <div id="races"></div>
-
-    </div>
-
-
-<div>
-    <h1 class = heading-section>Nasze rasy</h1>
-    <div class="card-flex-container">
-        <div class="card">
-            <img class="card-image" src="asset/image/cat/cat_british.jpg">
-            <div class="card-container">
-              <h4 class="card-text" >Kot brytyjski</h4>
-              <p>Rasa kota, której początki wywodzą od kotów sprowadzonych na Wyspy Brytyjskie przez legiony rzymskie, wykorzystujące je do walki ze szczurami. Legendy tej nie udało się jednak udowodnić. Faktem jest, że rasa wywodzi się od kotów domowych zamieszkujących Wielką Brytanię.</p>
+         </div>
+      </div>
+      <div id="about"></div>
+      <div class="responsive-image-container">
+         <img src="asset/image/cat/cat_1_cropped.jpeg" class="responsive-image">
+      </div>
+      <!-- about -->
+      <div>
+         <h1 class="heading-section">O nas</h1>
+         <p>Jesteśmy największą w Łodzi legalną hodowlą kotów rasowych. W branży już od 1954 roku!</p>
+         <h2>Dlaczego można nam zaufać?</h2>
+         <ul>
+            <li>
+               <div class="list-text border-bottom">
+                  <p>
+                     <b>Przynależność do odpowiednich federacji</b><br>
+                     Należymy do największej światowej federacji felinologicznej World Cat Federation (WCF).
+                  </p>
+               </div>
+            </li>
+            <li>
+               <div class="list-text border-bottom">
+                  <p>
+                     <b>Wiek wydawania kociaka</b><br>
+                     Każdy kot, który opuszcza naszą hodowlę, ma już ukończone 12 tygodni.
+                  </p>
+               </div>
+            </li>
+            <li>
+               <div class="list-text border-bottom">
+                  <p>
+                     <b>Kastracja</b><br>
+                     Każdy maluch, który opuszcza naszą hodowlę, jest już wykastrowany.
+                  </p>
+               </div>
+            </li>
+            <li>
+               <div class="list-text border-bottom">
+                  <p>
+                  <div id="races"></div>
+                  <b>Rodowód</b><br>
+                  Każdy kot posiada rodowód WCF.
+                  </p>
+               </div>
+            </li>
+            <li>
+               <div class="list-text border-bottom">
+                  <p>
+                     <b>Wyniki badań</b><br>
+                     Każdy kot przynależący do rasy obciążonej chorobami o podłożu genetycznym posiada wszelkie niezbędne badania.
+                  </p>
+               </div>
+            </li>
+         </ul>
+      </div>
+      <!-- races -->
+      <div>
+         <h1 class="heading-section">Nasze rasy</h1>
+         <div class="card-flex-container">
+            <div class="card">
+               <img class="card-image" src="asset/image/cat/cat_british.jpg">
+               <div class="card-container">
+                  <h4 class="card-text" >Kot brytyjski</h4>
+                  <p>Rasa kota, której początki wywodzą od kotów sprowadzonych na Wyspy Brytyjskie przez legiony rzymskie, wykorzystujące je do walki ze szczurami. Legendy tej nie udało się jednak udowodnić. Faktem jest, że rasa wywodzi się od kotów domowych zamieszkujących Wielką Brytanię.</p>
+               </div>
             </div>
-          </div>
-
-          <div class="card">
-            <img class="card-image" src="asset/image/cat/cat_bengali.png">
-            <div class="card-container">
-              <h4 class="card-text" >Kot bengalski</h4>
-              <p>Rasa kota pochodząca ze Stanów Zjednoczonych, powstała w wyniku skrzyżowania kotka bengalskiego z kotem domowym. Jest zaliczana do grupy kotów orientalnych.</p>
+            <div class="card">
+               <img class="card-image" src="asset/image/cat/cat_bengali.png">
+               <div class="card-container">
+                  <h4 class="card-text" >Kot bengalski</h4>
+                  <p>Rasa kota pochodząca ze Stanów Zjednoczonych, powstała w wyniku skrzyżowania kotka bengalskiego z kotem domowym. Jest zaliczana do grupy kotów orientalnych.</p>
+               </div>
             </div>
-          </div>
-
-          <div class="card">
-            <img class="card-image" src="asset/image/cat/cat_exotic.jpg">
-            <div class="card-container">
-              <h4 class="card-text" >Kot egzotyczny</h4>
-              <p>Współczesna, sztucznie wyhodowana rasa kota pochodząca ze Stanów Zjednoczonych, powstała przez skrzyżowanie amerykańskiego kota krótkowłosego z kotem perskim. Fikcyjnym przedstawicielem tej rasy jest Garfield – bohater wielu komiksów i filmów animowanych.</p>
+            <div class="card">
+               <img class="card-image" src="asset/image/cat/cat_exotic.jpg">
+               <div class="card-container">
+                  <h4 class="card-text" >Kot egzotyczny</h4>
+                  <p>Współczesna, sztucznie wyhodowana rasa kota pochodząca ze Stanów Zjednoczonych, powstała przez skrzyżowanie amerykańskiego kota krótkowłosego z kotem perskim. Fikcyjnym przedstawicielem tej rasy jest Garfield – bohater wielu komiksów i filmów animowanych.</p>
+               </div>
             </div>
-          </div>
-
-          <div class="card">
-            <img class="card-image" src="asset/image/cat/cat_maine_coon.jpg">
-            <div class="card-container">
-              <h4 class="card-text" >Maine Coon</h4>
-              <p>Rasa kota pochodząca z Ameryki Północnej. Koty rasy maine coon wyróżnia wielkość, inteligencja i żywiołowość.</p>
+            <div class="card">
+               <img class="card-image" src="asset/image/cat/cat_maine_coon.jpg">
+               <div class="card-container">
+                  <h4 class="card-text" >Maine Coon</h4>
+                  <p>Rasa kota pochodząca z Ameryki Północnej. Koty rasy maine coon wyróżnia wielkość, inteligencja i żywiołowość.</p>
+               </div>
             </div>
-          </div>
-
-          <div class="card">
-            <img class="card-image" src="asset/image/cat/cat_persian.jpg">
-            <div class="card-container">
-              <h4 class="card-text" >Kot perski</h4>
-              <p>Stara rasa kota, zaliczana do grupy długowłosych. W Europie pojawiła się w XVII wieku.</p>
+            <div class="card">
+               <img class="card-image" src="asset/image/cat/cat_persian.jpg">
+               <div class="card-container">
+                  <h4 class="card-text" >Kot perski</h4>
+                  <p>Stara rasa kota, zaliczana do grupy długowłosych. W Europie pojawiła się w XVII wieku.</p>
+               </div>
             </div>
-          </div>
-
-          <div class="card">
-            <img class="card-image" src="asset/image/cat/cat_sphinx.jpg">
-            <div class="card-container">
-              <h4 class="card-text" >Kot sfinks</h4>
-              <p>Występujące w Ameryce i Europie sfinksy pochodzą przeważnie od kanadyjskiego kota domowego. W 1966 r., w wyniku samoistnej mutacji, kotka Prune urodziła dwa łyse młode.</p>
+            <div class="card">
+               <img class="card-image" src="asset/image/cat/cat_sphinx.jpg">
+               <div class="card-container">
+                  <h4 class="card-text" >Kot sfinks</h4>
+                  <div id="opinions"></div>
+                  <p>Występujące w Ameryce i Europie sfinksy pochodzą przeważnie od kanadyjskiego kota domowego. W 1966 r., w wyniku samoistnej mutacji, kotka Prune urodziła dwa łyse młode.</p>
+               </div>
             </div>
-          </div>
-    </div>
-</div>
-
-
-    
-<div class="margin" id="opinions"></div>
-<div>
-    <h1 class = heading-section>Zobacz opinie o nas!</h1>
-    <div class="speech-bubble">
-        <br>
-        <div class="speech-bubble-text">
-        <p>> Twój stary nie chce kota</p>
-        <p>> Twój stary po tygodniu z kotem</p>
-        </div>
-        <p>⭐⭐⭐⭐⭐</p>
-    </div>
-</div>
-
-        <!-- contact -->
-    <div class="contact">
-        <div class="box">
+         </div>
+      </div>
+    <!-- opinions -->
+      <div>
+         <h1 class="heading-section">Zobacz opinie o nas!</h1>
+         <div class="box">
+            <div class="speech-bubble">
+               <br>
+               <div class="speech-bubble-text">
+                  <p>Serdecznie polecam hodowlę!</p>
+                  <p>Wspaniałe kociaki wychodzą z tego domku.</p>
+               </div>
+               <p class="speech-bubble-author">⭐⭐⭐⭐⭐ ~Tomasz</p>
+            </div>
+            <div class="speech-bubble">
+               <br>
+               <div class="speech-bubble-text">
+                  <p>10/10</p>
+                  <p>Would buy once again! Really great service.</p>
+               </div>
+               <p class="speech-bubble-author">⭐⭐⭐⭐ ~Ann</p>
+            </div>
+         </div>
+      </div>
+      <!-- contact -->
+      <div class="contact">
+         <div class="box">
             <div>
-                <h1>Kontakt</h1>
-                <h2>Jan Kowalski</h2>
-                <h3>Email: kontakt@kotex.pl</h3>
-                <h3>Telefon: +48 123 123 123</h3>
-                <br><br>
-                <h1>Adres</h1>
-                <h2>Hodowla kotów rasowych Kotex</h2>
-                <h3>ul. Pomorska 149/153, 90-001 Łódź</h3>
+               <h1>Kontakt</h1>
+               <h2>Jan Kowalski</h2>
+               <h3>Email: kontakt@kotex.pl</h3>
+               <h3>Telefon: +48 123 123 123</h3>
+               <br><br>
+               <h1>Adres</h1>
+               <h2>Hodowla kotów rasowych Kotex</h2>
+               <h3>ul. Pomorska 149/153, 90-001 Łódź</h3>
             </div>
             <div id="map">
-                <script
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-                    defer></script>
+               <script
+                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                  defer></script>
             </div>
-        </div>
-    </div>
-
-    <!-- footer -->
-    <div class="footer">
-        <div class = "footer-about">
+         </div>
+      </div>
+      <!-- footer -->
+      <div class="footer">
+         <div class="footer-about">
             <p class="footer-text">
-                By
-                <a href="mailto:UL0265757@edu.uni.lodz.pl" title="Kontakt" class="footer-mail">
-                    Mateusz Janicki</a> 2022
+               By
+               <a href="mailto:UL0265757@edu.uni.lodz.pl" title="Kontakt" class="footer-mail">
+               Mateusz Janicki</a> 2022
             </p>
-        </div>
-
-        <div class="footer-buttons">
+         </div>
+         <div class="footer-buttons">
             <a href="https://www.facebook.com/" id="img_wrap" title="Facebook" class="static">
-                <img id="animated" src="asset/image/social/facebook_anim.gif" class="footer-button"/>
-                <img id="static" src="asset/image/social/facebook.png" class="footer-button"/></a>
-
+            <img id="animated" src="asset/image/social/facebook_anim.gif" class="footer-button"/>
+            <img id="static" src="asset/image/social/facebook.png" class="footer-button"/></a>
             <a href="https://www.intagram.com/" id="img_wrap" title="Instagram" class="static">
-                <img id="animated" src="asset/image/social/instagram_anim.gif" class="footer-button"/>
-                <img id="static" src="asset/image/social/instagram.png" class="footer-button"/></a>
-
+            <img id="animated" src="asset/image/social/instagram_anim.gif" class="footer-button"/>
+            <img id="static" src="asset/image/social/instagram.png" class="footer-button"/></a>
             <a href="https://www.tiktok.com/" id="img_wrap" title="Tiktok" class="static">
-                <img id="animated" src="asset/image/social/tiktok_anim.gif" class="footer-button"/>
-                <img id="static" src="asset/image/social/tiktok.png" class="footer-button"/></a>
-
+            <img id="animated" src="asset/image/social/tiktok_anim.gif" class="footer-button"/>
+            <img id="static" src="asset/image/social/tiktok.png" class="footer-button"/></a>
             <a href="https://www.youtube.com/" id="img_wrap" title="Youtube" class="static">
-                <img id="animated" src="asset/image/social/youtube_anim.gif" class="footer-button"/>
-                <img id="static" src="asset/image/social/youtube.png" class="footer-button"/></a>
-        </div>
-    </div>
-
-</body>
-
+            <img id="animated" src="asset/image/social/youtube_anim.gif" class="footer-button"/>
+            <img id="static" src="asset/image/social/youtube.png" class="footer-button"/></a>
+         </div>
+      </div>
+   </body>
 </html>
